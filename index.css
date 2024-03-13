@@ -36,22 +36,23 @@ button:hover {
   font-size: 2em;
   margin-top: 20px;
 }
-
-.invalid {
-  display: inline-block;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background-color: red;
-  margin-left: 5px;
-}
-
+/* CSS styles for the green dot indicating a valid syntax */
 .valid {
   display: inline-block;
   width: 25px;
   height: 25px;
   border-radius: 50%;
   background-color: green;
+  margin-left: 5px;
+}
+
+/* CSS styles for the red dot indicating an invalid syntax */
+.invalid {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: red;
   margin-left: 5px;
 }
 
